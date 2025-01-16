@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "title": "Solar Panel 300W Mono",
+      "price": 249000,
+      "description": "High-efficiency solar panel suitable for home use and off-grid applications. Perfect for powering small appliances or charging batteries.",
+      "category": "solar panels",
+      "image": "https://media.istockphoto.com/id/1290204324/photo/colse-up-solar-panels-on-sunset-3d-illustration.jpg?s=612x612&w=0&k=20&c=mTbT9WcKQs2xPSMwm4JAUQ6sJyD4SuGlt-IelNg1tMs="
+    },
+    {
+      "id": "2",
+      "title": "Wind Turbine 5kW",
+      "price": 129999,
+      "description": "Compact and durable wind turbine for residential and small commercial use. Generates up to 5kW of power in optimal wind conditions.",
+      "category": "wind turbines",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdZmRlVwuQMRyvF8MVfuSOCv37738FgOSyzA&s"
+    },
+    {
+      "id": "3",
+      "title": "Solar Panel Kit 100W ",
+      "price": 139899,
+      "description": "Complete solar kit that includes a 100W solar panel, charge controller, and all necessary wiring. Perfect for camping and off-grid living.",
+      "category": "solar panels",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf9qqxwjiXcO4l5JHsu5nhS5tKe7jQO23jmw&s"
+    },
+    {
+      "id": "4",
+      "title": "Wind Turbine 10kW",
+      "price": 2799999,
+      "description": "Large-scale wind turbine designed for commercial use, generating up to 10kW of power in ideal conditions.",
+      "category": "wind turbines",
+      "image": "https://www.ryse.energy/wp-content/uploads/2020/07/IMG_0483-3-scaled.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Solar Panel 500W High ",
+      "price": 599999,
+      "description": "500W high-efficiency solar panel with superior durability and performance in various weather conditions. Ideal for large-scale installations.",
+      "category": "solar panels",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIb--QcykxbwIOF-qkCCwagUfPFbj95iJxZw&s"
+    },
+    {
+      "id": "6",
+      "title": "Wind Turbine 3kW",
+      "price": 899999,
+      "description": "Reliable wind turbine generating up to 3kW of power, suitable for residential applications or small businesses.",
+      "category": "wind turbines",
+      "image": "https://5.imimg.com/data5/BB/XR/OB/GLADMIN-5852969/img-20141118-wa0002-500x500.jpg"
+    }
+]

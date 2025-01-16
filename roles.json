@@ -1,0 +1,17 @@
+[
+    {
+        "id": "dc326879-6a8c-4aa5-a43d-7f4303f0590c",
+        "role_name": "admin",
+        "status": true
+    },
+    {
+        "id": "3c41c071-d854-4b92-b0ed-939e63b2f61c",
+        "role_name": "user",
+        "status": true
+    },
+    {
+        "id": "39a0917d-5885-44c4-8670-b617af8a11b6",
+        "role_name": "guest",
+        "status": true
+    }       
+]   
