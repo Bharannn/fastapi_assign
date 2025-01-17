@@ -6,7 +6,6 @@ This repository contains an assignment/project built using [FastAPI](https://fas
 
 - **FastAPI**: Leverages the speed and efficiency of FastAPI to create robust APIs.
 - **MongoDB**: Utilizes MongoDB as the database for data storage and retrieval.
-- **Modular Structure**: Organized into a clean and maintainable folder structure.
 
 ## Prerequisites
 
@@ -38,32 +37,28 @@ Before you begin, ensure you have the following installed on your system:
 4. **Set up the environment variables**:
    Create a `.env` file in the root directory and add the following:
    ```env
-   DATABASE_URL=mongodb://<username>:<password>@localhost:27017/<database_name>
-   SECRET_KEY=your_secret_key_here
+   DATABASE_URL=
+   MONGO_INITDB_DATABASE=
+   
+   ACCESS_TOKEN_EXPIRES_IN=
+   REFRESH_TOKEN_EXPIRES_IN=
+   JWT_ALGORITHM=
+   
+   CLIENT_ORIGIN=
+   
+   EMAIL_HOST=
+   EMAIL_PORT=
+   EMAIL_USERNAME=
+   EMAIL_PASSWORD=
+   EMAIL_FROM=
+   EMAIL_FROM_NAME=
+   JWT_PRIVATE_KEY=
+   JWT_PUBLIC_KEY=
+   
+   ADMIN_KEY=
+   USER_KEY=
+   GUEST_KEY=
    ```
-
-## Folder Structure
-
-```plaintext
-fastapi_assign/
-|-- main.py         # Entry point of the application
-|-- config.py       # Configuration settings
-|-- database.py     # Database connection setup
-|-- .env            # Environment variables
-|-- requirements.txt # Project dependencies
-|-- users/          # User-related functionality
-|   |-- routers/    # API endpoints
-|   |-- models/     # Data models
-|   |-- utils/      # Helper functions
-|-- orders/         # Order-related functionality
-|   |-- routers/    # API endpoints
-|   |-- models/     # Data models
-|   |-- utils/      # Helper functions
-|-- admin/          # Admin-related functionality
-    |-- routers/    # API endpoints
-    |-- models/     # Data models
-    |-- utils/      # Helper functions
-```
 
 ## Running the Application
 
@@ -78,28 +73,4 @@ fastapi_assign/
 3. **Access the API documentation**:
    - Open [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) for the interactive Swagger UI.
    - Alternatively, visit [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc) for ReDoc documentation.
-
-## Testing
-
-To run tests (if available), use:
-```bash
-pytest
-```
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push them to your fork.
-4. Submit a pull request with a detailed description of your changes.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For questions or feedback, please reach out to the repository owner or create an issue in this repository.
 
