@@ -23,7 +23,7 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
     return pwd_context.verify(plain_password, hashed_password)
 
 
-# PRIVATE_KEY = (
+'''# PRIVATE_KEY = (
 #     "-----BEGIN RSA PRIVATE KEY-----"
 #     + settings.JWT_PRIVATE_KEY
 #     + "-----END RSA PRIVATE KEY-----"
@@ -42,7 +42,7 @@ def verify_password(plain_password: str, hashed_password: str) -> bool:
 # PUBLIC_KEY = f"""-----BEGIN PUBLIC KEY-----
 # {settings.JWT_PUBLIC_KEY}
 # -----END PUBLIC KEY-----"""
-
+'''
 
 PRIVATE_KEY = """
 -----BEGIN RSA PRIVATE KEY-----
